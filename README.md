@@ -34,9 +34,9 @@ Shuiming Chen
 
 # Analysis/Visualization - (50 points):
 ### 1. Graph histograms of your data with appropriate labels.
-* see histogram-graph.py
+* see histogram-length.py and histogram-width.py
 ### 2. Graph boxplots of your data with appropriate labels.
-* see boxplot-graph.py
+* see boxplot-length.py and boxplot-width.py
 ### 3. Graph a scatter plot of your entire data set with each subset different color and a ledger.
 * see scatter-graph.py
 ### 4. Explain each graph in terms of variance, mean, median, and standard deviation.
