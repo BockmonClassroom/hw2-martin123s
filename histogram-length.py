@@ -27,7 +27,7 @@ for ax, (name, group) in zip(axes[1:], species):
     ax.set_ylabel('Count')
 
 # Add super title to the figure
-fig.suptitle('leaves length')
+fig.suptitle('leaves length (cm)')
 plt.show()
 
 

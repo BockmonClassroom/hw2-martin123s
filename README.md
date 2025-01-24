@@ -41,14 +41,15 @@ Shuiming Chen
 * see scatter-graph.py
 ### 4. Explain each graph in terms of variance, mean, median, and standard deviation.
 #### histograms
-* variance: x label of the figure which is the width distributions indicate variance in leaf length, the narrower of the width, the smaller of the leaves variance, and vice verse.
-* mean/median: The peak of the bin can help to estimate the mean/median for each species.
+* variance: x label of the figure width which is the distributions indicate variance in leaf length, the narrower of the width, the smaller of the leaves variance, and vice verse.
+* mean/median: The peak of the bin can help to estimate the mean/median for each species. if the dataset are normalization, the mean and median would be in the same spot, otherwise their results would be close to each other.
 * standard deviation: the narrower of the bin means lower standard deviation, and vice verse.
 
 #### boxplots
-* variance: the height of the box plot represents the variability.
-* mean/median: The line inside the box is the median.
-* standard deviation: A wider box and longer whiskers can be used to imply higher standard deviation.
+* Boxpots does not directly show the variance, standatd deviation and mean. however, we can infer from the boxplot of median, which is the line inside the box.
+* Boxplots has first quartile(Q1) which means the median of upper half, and third quartile(Q3) which is the median of lower half.
+* We can also infer from the boxplots of minimum and maximum values which is called whiskers, and outliers which are data points outside of whiskers.
+* We can say that a wider box and longer whiskers can be used to imply higher standard deviation.
 
 #### scatters
 * variance: how spread out of the points are can be used to detect variance.
